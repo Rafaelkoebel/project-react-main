@@ -8,17 +8,17 @@ const navigation = () => {
         <div className='navigation flex place-content-evenly items-center'>
             <div className='flex items-center'>
             {<img src={LogoA} className='w-12'/>}
-            <NavLink to="/" className='bg-red-700 rounded-lg px-3 ' >
+            <NavLink to="/" className='bg-angular rounded-lg px-3 border-2 border-black shadow-ombre ' >
                 Angular
             </NavLink>
             </div>
             <div className='flex items-center'>
             {<img src={LogoR} className='w-12'/>}
-            <NavLink to="/react" className='bg-sky-500 rounded-lg px-3' >
+            <NavLink to="/about" className='bg-react rounded-lg px-3 border-2 border-black shadow-ombre' >
                 React
             </NavLink>
             </div>
-            <NavLink to="/conclusion" className='bg-cyan-900 rounded-lg px-3 text-white'>
+            <NavLink to="/conclusion" className='bg-conclusion rounded-lg px-3 text-white border-2 border-white shadow-ombre'>
                 Conclusion
             </NavLink>
         </div>
