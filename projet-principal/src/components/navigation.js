@@ -8,7 +8,7 @@ const navigation = () => {
         <div className='navigation flex place-content-evenly items-center'>
             <div className='flex items-center'>
             {<img src={LogoA} className='w-12'/>}
-            <NavLink to="/" className='bg-angular rounded-lg px-3 border-2 border-black shadow-ombre ' >
+            <NavLink to="/" className='bg-angular rounded-lg px-3 border-2 border-black shadow-ombre' >
                 Angular
             </NavLink>
             </div>
