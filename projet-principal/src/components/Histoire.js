@@ -21,13 +21,15 @@ const Histoire = () => {
 
                 {toggleState ?
                 <div onClick={toggleFonction}>
-                <p className="text-center bg-angular rounded-lg ">En savoir plus</p>
+                <p className="text-center bg-angular rounded-lg cursor-pointer ">En savoir moins</p>
                  </div> :
                  <div onClick={toggleFonction}>
-                <p className="text-center bg-angular rounded-lg ">fermer</p>
+                <p className="text-center bg-angular rounded-lg cursor-pointer ">En savoir plus</p>
                  </div> 
                 }
-                {toggleState && <p className='bg-angular' onClick={toggleFonction}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptates, facilis et quibusdam consequatur nostrum repudiandae? Neque porro corrupti voluptatibus fugiat, natus nesciunt, nemo inventore autem possimus nobis fugit illum.</p>}
+                {toggleState && <p className='bg-angular cursor-pointer	' onClick={toggleFonction}>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptates, facilis et quibusdam consequatur nostrum repudiandae? Neque porro corrupti voluptatibus fugiat, natus nesciunt, nemo inventore autem possimus nobis fugit illum.
+                    </p>}
                 
             </div>
             
