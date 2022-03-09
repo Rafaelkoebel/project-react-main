@@ -13,8 +13,8 @@ const Histoire = () => {
     }
 
     return (
-        <div className=" histoire lg:flex-nowrap flex flex-wrap justify-center gap-4 items-center  rounded-xl m-5 p-5 ">
-            <div className=" gap-1 flex flex-col lg:w-64 ">
+        <div className=" histoire lg:flex-nowrap flex flex-wrap justify-center gap-4 items-center  rounded-xl m-5 p-5 backdrop-blur-lg ">
+            <div className=" gap-1 flex flex-col lg:w-64 w-[95%] ">
                 <h1 className="text-center ">Misko Hevery</h1>
                 {<img src={Misko} className="rounded-lg "></img>}
 

@@ -4,7 +4,7 @@
     top: 0;
     left: 0;
     right: 0;
-    bottom: 40%;
+    height: 45vh;
     background-color: #358DE0;
     z-index: -1;
     clip-path: polygon(0 0, 100% 0, 100% 100%, 0 80%);
@@ -17,14 +17,13 @@
 .histoire::before{
     content: "";
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.1);
+    background-color: rgba(221, 0, 0, 0.1);
     top: 0;
     left: 0;
     right: 0;
     bottom: 0;
-    filter: blur(3px);
     box-shadow: 0 25px 45px rgba(0, 0, 0, 0.1);
-    border: solid 1px rgba(0, 0, 0, 0.5);
+    border: solid 1px rgba(0, 0, 0, 0.3);
     border-radius: 10px;
     z-index: -1;
 }
