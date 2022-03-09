@@ -9,14 +9,13 @@ import React from './pages/React';
 function App() {
   return (
     <Router>
-        
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/about" element={<About />} />
-          <Route path="*" element={<NotFound />} />
-          <Route path="/React" element={<React/>} />
-        </Routes>
-      </Router>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="*" element={<NotFound />} />
+        <Route path="/React" element={<React/>} />
+      </Routes>
+    </Router>
   );
 }
 

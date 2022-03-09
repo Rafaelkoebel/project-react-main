@@ -10,7 +10,7 @@ import "../css/style.css"
 function Home() {
 /*   let navigate = useNavigate();
  */  return (
-    <div className='test'>
+    <div className='bg-fondReact'>
       <Navigation /> 
         <h1 class="text-center font-bold text-6xl underline mt-12 mb-20">React</h1>
         <h2 class="text-center text-4xl">Comment est né React:</h2>
