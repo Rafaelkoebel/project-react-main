@@ -28,7 +28,7 @@ const Histoire = () => {
                  </div> 
                 }
                 {toggleState && <p className='bg-angular cursor-pointer	' onClick={toggleFonction}>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus voluptates, facilis et quibusdam consequatur nostrum repudiandae? Neque porro corrupti voluptatibus fugiat, natus nesciunt, nemo inventore autem possimus nobis fugit illum.
+            Travaille en tant que coach agile chez Google, où il est chargé de coacher les Googleurs pour maintenir le niveau élevé de la culture des tests automatisés. Cela permet à Google de publier fréquemment ses applications Web avec une qualité élevée et constante. Il est très impliqué dans la communauté Open Source et auteur de plusieurs projets open source tels que Angular ( http://angularjs.org ) et JsTestDriver ( http://code.google.com/p/js-test-driver ).
                     </p>}
                 
             </div>

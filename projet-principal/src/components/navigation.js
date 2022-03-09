@@ -1,7 +1,7 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
 import LogoA from "../images/Angular_logo.png";
-import LogoR from "../images/React_logo.png";
+import LogoR from "../images/logo-react.png";
 
 const navigation = () => {
     return (
@@ -14,7 +14,7 @@ const navigation = () => {
             </div>
             <div className='flex items-center'>
             {<img src={LogoR} className='w-12'/>}
-            <NavLink to="/about" className='bg-react rounded-lg px-3 border-2 border-black shadow-ombre' >
+            <NavLink to="/React" className='bg-react rounded-lg px-3 border-2 border-black shadow-ombre' >
                 React
             </NavLink>
             </div>

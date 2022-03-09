@@ -10,13 +10,13 @@ const Avantages = () => {
                    <p className=' text-2xl bg-green p-0.5 rounded-tl-lg rounded-lg flex justify-center  min-w-[180px] pb-2'> Avantages</p>
                 </div>
                 <div class="col-start-2 col-end-4 row-start-4 flex justify-end mr-4	">
-                    <p className='w-2/3 bg-white border-solid border-[3px] border-green p-0.5 rounded-tl-xl rounded-br-xl text-center min-w-[140px] '> Conçu par Google qui s’occupe du suivi et des mises à jour.</p>
+                    <p className='w-2/3 bg-white border-solid border-[3px] border-green p-0.5 rounded-tl-xl rounded-br-xl text-center min-w-[140px] '> Meilleur gestion des datas</p>
                 </div>
                 <div class="col-end-6 col-span-2 row-start-5 row-span-1 flex justify-start ml-4">
-                    <p className='w-2/3 bg-white border-solid border-[3px] border-green p-0.5 rounded-tl-xl rounded-br-xl text-center min-w-[140px]'>  TypeScript est plus sécurisé et plus lisible que JavaScript</p>
+                    <p className='w-2/3 bg-white border-solid border-[3px] border-green p-0.5 rounded-tl-xl rounded-br-xl text-center min-w-[140px]'>  Extension qui rend le langage plus accessible</p>
                 </div>
                 <div class="col-start-2 col-end-4 row-start-6 flex justify-end mr-4	">
-                    <p className='w-2/3 bg-white border-solid border-[3px] border-green p-0.5 rounded-tl-xl rounded-br-xl text-center min-w-[140px]'> Excellente animation graphique</p>
+                    <p className='w-2/3 bg-white border-solid border-[3px] border-green p-0.5 rounded-tl-xl rounded-br-xl text-center min-w-[140px]'> Chargement des données plus rapide</p>
                 </div>
                 <div class="col-end-6 col-span-2 row-start-7 flex justify-start ml-4">
                     <p className='w-2/3 bg-white border-solid border-[3px] border-green p-0.5 rounded-tl-xl rounded-br-xl text-center min-w-[140px]'> Open source </p>
@@ -30,10 +30,10 @@ const Avantages = () => {
                    <p className='bg-angular p-0.5 text-white rounded-tl-lg rounded-lg flex justify-center items-center min-w-[180px] max-h-[50px] text-2xl pb-2'> inconvénient</p>
                 </div>
                 <div class="col-start-2 col-end-4 row-start-4 flex justify-end mr-4	">
-                    <p className='w-2/3 bg-white border-solid border-[3px] border-angular p-0.5 rounded-tl-lg rounded-br-lg text-center min-w-[140px]'> Apprendre le TypeScript</p>
+                    <p className='w-2/3 bg-white border-solid border-[3px] border-angular p-0.5 rounded-tl-lg rounded-br-lg text-center min-w-[140px]'> Problème de référencement en Single Page </p>
                 </div>
                 <div class="col-end-6 col-span-2 row-start-5 row-span-1 flex justify-start ml-[3px]">
-                    <p className='w-2/3 bg-white border-solid border-[3px] border-angular p-0.5 rounded-tl-lg rounded-br-lg text-center min-w-[140px]'>  Courbe apprentissage plus longue</p>
+                    <p className='w-2/3 bg-white border-solid border-[3px] border-angular p-0.5 rounded-tl-lg rounded-br-lg text-center min-w-[140px]'>  Documentation légère</p>
                 </div>
             </div>    
         </div>
